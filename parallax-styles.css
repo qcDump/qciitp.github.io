@@ -1,0 +1,127 @@
+* {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: verdana;
+	font-weight: 400;
+	line-height: 1.8em;
+}
+
+.one, .two, .three, .four, .end {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.one {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://lh3.googleusercontent.com/tyiW3favrTsNIgzmEN5J76PVesIn8_kLQ6WNnG4G0XFT5bAqzOEjIR1jDVHyArsedU41IRBcOdwepBAleiiqnAQ8hdem6wiK_g_90Z4m4HIZ4ZpVYMyLgiLN86iP0HqDejdjCAzEWg=w2400);
+	height: 100%;
+	width: 100%;
+}
+
+.two {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://lh3.googleusercontent.com/42hL7tuBYI0Ir0u7NJWSm5m4AEyNnvaeZtCF7Sjd7Dd8s6KdyRAcYFWkOcq2s3v7TvcTJYCHJ82bUfB7Ve4W5nqmGjsoMxPCzu_10wB8xW-28QMo63g4X6yB7lswlhtCzQMe8GePmQ=w2400);
+	height: 100%;
+	width: 100%;
+}
+
+.three {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://lh3.googleusercontent.com/I5iODXRdQP-NqTxbAg7yU5R4l_QJ02glA-6tOHcZcCxXWcSZw8fWLtJgA7fE3EHzR62gWizMOimQHTvIlOTq6u49UOlctuF0cf9jfP-vAUAn3OYddgsZSLbo4W-1JYmdB5pX28lgmw=w2400);
+	height: 100%;
+	width: 100%;
+}
+
+.four {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://lh3.googleusercontent.com/eQKp4XxOgmLDD6vHPIXrnlJS8ge3CuBh6qvPpuKdT88R23Ux2oin1Wy4kQropuUniAzI61SBRpgyKE6pokcdPF-LpU558LlzhINV0X886yrMggYXfyzy7HHVdRUG0sKJnbzHyo59Aw=w2400);
+	height: 100%;
+	width: 100%;
+}
+.end {
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://lh3.googleusercontent.com/h-YSEOKBQ4I2c0WYhpECGPL7E3MFG1K0OSddI954gLklgODINgp2VuFDzzoV-4QhwLNjgo_XC0HtXQHEtiZjQ4h1ccvui9Jpq5jETZRwUyKc9LxDsplTDkJDGXk0pwtwbF8UDH5_Og=w2400);
+	margin: auto;
+	width: 100%;
+	height: 70%;
+	padding-top: 30%;
+}
+
+section {
+	height: 400px;
+}
+
+.light {
+	background-color: white;
+	color: black;
+}
+
+.light h2 {
+	color: black;
+	font-family: verdana;
+	font-size: 2vw;
+	font-weight: bold;
+	text-align: center;
+	padding: 8%;
+	text-shadow: 2px 2px 2px grey;
+}
+
+.dark {
+	background-color: black;
+	color: white;
+}
+
+.dark h2 {
+	color: white;
+	font-family: verdana;
+	font-size: 2vw;
+	font-weight: bold;
+	text-align: center;
+	padding: 8%;
+	text-shadow: 2px 2px 2px grey;
+}
+
+.lyrics {
+	margin: auto;
+	padding: 20%;
+	width: 50%;
+	text-align: center;
+}
+
+.lyrics p {
+	font-family: verdana;
+	font-size: 2vw;
+	font-weight: bold;
+	color: white;
+	text-shadow: 4px 4px 6px black;
+}
+
+.end h2 {
+	font-family: verdana;
+	font-size: 2vw;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	text-shadow: 4px 4px 6px black;
+}
+
+.foot {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 5%;
+	background-color: black;
+	color: white;
+}
+
+.foot h2 {
+	text-align: center;
+	text-shadow: 1px 1px 2px grey;
+}
+
+.author {
+	font-size: 2vw;
+	margin-top: 2%;
+}
